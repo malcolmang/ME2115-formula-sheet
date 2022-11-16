@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.1)  16 NOV 2022 11:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.1)  16 NOV 2022 11:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -309,15 +309,15 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(14.22636pt, 569.05515pt, 14.22636pt)
-* v-part:(T,H,B)=(14.22636pt, 816.59412pt, 14.22636pt)
+* h-part:(L,W,R)=(22.76228pt, 551.9833pt, 22.76228pt)
+* v-part:(T,H,B)=(22.76228pt, 799.52228pt, 22.76228pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=569.05515pt
-* \textheight=816.59412pt
-* \oddsidemargin=-58.04362pt
-* \evensidemargin=-58.04362pt
-* \topmargin=-95.04362pt
+* \textwidth=551.9833pt
+* \textheight=799.52228pt
+* \oddsidemargin=-49.5077pt
+* \evensidemargin=-49.5077pt
+* \topmargin=-86.5077pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -346,8 +346,18 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 43.
 (C:\Users\malcolm\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (2.12865pt too wide) detected at line 150
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
+[]\OT1/cmr/bx/n/12 Free Vi-bra-tion With-out
+ []
+
+
+Overfull \hbox (7.81926pt too wide) detected at line 150
 \OML/cmm/m/it/10 X \OT1/cmr/m/n/10 = [] = []
+ []
+
+
+Overfull \hbox (3.32925pt too wide) detected at line 151
+\OML/cmm/m/it/10 ^^^ \OT1/cmr/m/n/10 = [][] [] = [][] []
  []
 
 [1
@@ -357,27 +367,27 @@ Overfull \hbox (2.12865pt too wide) detected at line 150
 File: screenshot001.png Graphic file (type png)
 <use screenshot001.png>
 Package pdftex.def Info: screenshot001.png  used on input line 161.
-(pdftex.def)             Requested size: 279.52757pt x 229.70074pt.
+(pdftex.def)             Requested size: 270.99165pt x 222.68811pt.
 <screenshot002.png, id=20, 441.90094pt x 291.33844pt>
 File: screenshot002.png Graphic file (type png)
 <use screenshot002.png>
 Package pdftex.def Info: screenshot002.png  used on input line 163.
-(pdftex.def)             Requested size: 279.52757pt x 184.29546pt.
+(pdftex.def)             Requested size: 270.99165pt x 178.66751pt.
 <screenshot003.png, id=21, 322.20375pt x 286.82156pt>
 File: screenshot003.png Graphic file (type png)
 <use screenshot003.png>
 Package pdftex.def Info: screenshot003.png  used on input line 167.
-(pdftex.def)             Requested size: 251.5731pt x 223.95624pt.
+(pdftex.def)             Requested size: 243.89082pt x 217.1157pt.
 <screenshot004.png, id=22, 327.47343pt x 383.93437pt>
 File: screenshot004.png Graphic file (type png)
 <use screenshot004.png>
 Package pdftex.def Info: screenshot004.png  used on input line 168.
-(pdftex.def)             Requested size: 251.5731pt x 294.9508pt.
+(pdftex.def)             Requested size: 243.89082pt x 285.94064pt.
 <screenshot005.png, id=23, 974.89218pt x 395.22656pt>
 File: screenshot005.png Graphic file (type png)
 <use screenshot005.png>
 Package pdftex.def Info: screenshot005.png  used on input line 169.
-(pdftex.def)             Requested size: 279.52757pt x 113.32219pt.
+(pdftex.def)             Requested size: 270.99165pt x 109.8606pt.
  [2 <./screenshot001.png> <./screenshot002.png (PNG copy)> <./screenshot003.png
  (PNG copy)> <./screenshot004.png (PNG copy)> <./screenshot005.png (PNG copy)>]
 
@@ -385,7 +395,7 @@ Package pdftex.def Info: screenshot005.png  used on input line 169.
 Here is how much of TeX's memory you used:
  4194 strings out of 475385
  63157 string characters out of 2775963
- 445426 words of memory out of 3000000
+ 445421 words of memory out of 3000000
  25531 multiletter control sequences out of 15000+600000
  475286 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -405,7 +415,7 @@ eX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/malcolm/AppData/Local/Prog
 rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/malcolm/AppData/L
 ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/malcol
 m/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on ME2115.pdf (2 pages, 494600 bytes).
+Output written on ME2115.pdf (2 pages, 494464 bytes).
 PDF statistics:
  81 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
