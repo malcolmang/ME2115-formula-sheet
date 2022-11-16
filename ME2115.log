@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.1)  16 NOV 2022 09:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.1)  16 NOV 2022 11:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -346,61 +346,68 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 43.
 (C:\Users\malcolm\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<screenshot001.png, id=1, 295.60437pt x 242.9075pt>
-File: screenshot001.png Graphic file (type png)
-<use screenshot001.png>
-Package pdftex.def Info: screenshot001.png  used on input line 96.
-(pdftex.def)             Requested size: 183.01837pt x 150.39352pt.
-<screenshot002.png, id=3, 441.90094pt x 291.33844pt>
-File: screenshot002.png Graphic file (type png)
-<use screenshot002.png>
-Package pdftex.def Info: screenshot002.png  used on input line 98.
-(pdftex.def)             Requested size: 183.01837pt x 120.66313pt.
-<screenshot003.png, id=4, 322.20375pt x 286.82156pt>
-File: screenshot003.png Graphic file (type png)
-<use screenshot003.png>
-Package pdftex.def Info: screenshot003.png  used on input line 108.
-(pdftex.def)             Requested size: 164.71541pt x 146.63155pt.
-<screenshot004.png, id=5, 327.47343pt x 383.93437pt>
-File: screenshot004.png Graphic file (type png)
-<use screenshot004.png>
-Package pdftex.def Info: screenshot004.png  used on input line 109.
-(pdftex.def)             Requested size: 164.71541pt x 193.11494pt.
-<screenshot005.png, id=6, 974.89218pt x 395.22656pt>
-File: screenshot005.png Graphic file (type png)
-<use screenshot005.png>
-Package pdftex.def Info: screenshot005.png  used on input line 110.
-(pdftex.def)             Requested size: 183.01837pt x 74.19525pt.
+Overfull \hbox (2.12865pt too wide) detected at line 150
+\OML/cmm/m/it/10 X \OT1/cmr/m/n/10 = [] = []
+ []
 
 [1
 
-{C:/Users/malcolm/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./screensh
-ot001.png> <./screenshot002.png (PNG copy)> <./screenshot003.png (PNG copy)> <.
-/screenshot004.png (PNG copy)> <./screenshot005.png (PNG copy)>] (ME2115.aux) )
- 
+{C:/Users/malcolm/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+<screenshot001.png, id=18, 295.60437pt x 242.9075pt>
+File: screenshot001.png Graphic file (type png)
+<use screenshot001.png>
+Package pdftex.def Info: screenshot001.png  used on input line 161.
+(pdftex.def)             Requested size: 279.52757pt x 229.70074pt.
+<screenshot002.png, id=20, 441.90094pt x 291.33844pt>
+File: screenshot002.png Graphic file (type png)
+<use screenshot002.png>
+Package pdftex.def Info: screenshot002.png  used on input line 163.
+(pdftex.def)             Requested size: 279.52757pt x 184.29546pt.
+<screenshot003.png, id=21, 322.20375pt x 286.82156pt>
+File: screenshot003.png Graphic file (type png)
+<use screenshot003.png>
+Package pdftex.def Info: screenshot003.png  used on input line 167.
+(pdftex.def)             Requested size: 251.5731pt x 223.95624pt.
+<screenshot004.png, id=22, 327.47343pt x 383.93437pt>
+File: screenshot004.png Graphic file (type png)
+<use screenshot004.png>
+Package pdftex.def Info: screenshot004.png  used on input line 168.
+(pdftex.def)             Requested size: 251.5731pt x 294.9508pt.
+<screenshot005.png, id=23, 974.89218pt x 395.22656pt>
+File: screenshot005.png Graphic file (type png)
+<use screenshot005.png>
+Package pdftex.def Info: screenshot005.png  used on input line 169.
+(pdftex.def)             Requested size: 279.52757pt x 113.32219pt.
+ [2 <./screenshot001.png> <./screenshot002.png (PNG copy)> <./screenshot003.png
+ (PNG copy)> <./screenshot004.png (PNG copy)> <./screenshot005.png (PNG copy)>]
+
+(ME2115.aux) ) 
 Here is how much of TeX's memory you used:
- 4188 strings out of 475385
- 63098 string characters out of 2775963
- 428426 words of memory out of 3000000
- 25528 multiletter control sequences out of 15000+600000
- 474320 words of font info for 47 fonts, out of 8000000 for 9000
+ 4194 strings out of 475385
+ 63157 string characters out of 2775963
+ 445426 words of memory out of 3000000
+ 25531 multiletter control sequences out of 15000+600000
+ 475286 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,13n,77p,334b,338s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<C:/Users/malcolm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmbsy10.pfb><C:/Users/malcolm/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmbx10.pfb><C:/Users/malcolm/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmbx12.pfb><C:/Users/malcolm/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/malcolm/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/malcolm/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/mal
-colm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:
-/Users/malcolm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
-5.pfb><C:/Users/malcolm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmr7.pfb><C:/Users/malcolm/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmsy10.pfb>
-Output written on ME2115.pdf (1 page, 445601 bytes).
+ 72i,13n,77p,334b,317s stack positions out of 10000i,1000n,20000p,200000b,80000s
+<C:/Users/malcolm/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmbsy10.pfb><C:/Users/malcolm/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/malcolm/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/malcolm/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/malcolm/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Use
+rs/malcolm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.
+pfb><C:/Users/malcolm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmmi5.pfb><C:/Users/malcolm/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmmi7.pfb><C:/Users/malcolm/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmr10.pfb><C:/Users/malcolm/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/malcolm/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/malcolm/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/malcol
+m/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on ME2115.pdf (2 pages, 494600 bytes).
 PDF statistics:
- 63 PDF objects out of 1000 (max. 8388607)
+ 81 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

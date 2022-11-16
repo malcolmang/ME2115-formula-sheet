@@ -91,29 +91,83 @@
 		\[\bar{x} A = \smallint x\,dA = Q_y\]
 		\[\bar{y} A = \smallint y\,dA = Q_x\]
 		
-		\begin{figure}[H]
-			\centering
-			\includegraphics[width=1\linewidth]{screenshot001}
-			\label{fig:screenshot001}
-					\includegraphics[width=1\linewidth]{screenshot002}
-		\end{figure}
+
 		\subsection{Compound Shapes}
 		\[Q_y = \bar{X} \textstyle\sum A = \textstyle\sum \bar{x}A \]
 		\[Q_y = \bar{Y} \textstyle\sum A = \textstyle\sum \bar{y}A \]
 		\section{Mass Moment of Inertia}
 		\[I_O = \smallint r^2 \, dm = k_o^2 m \]
 		\[I = I_O + md^2\]
-		\begin{figure}[H]
+
+		\section{Rigid Body Kinetics}
+		\[\Sigma F = m\bar{a}\]
+		\[\bar{a} = a_{ref} +r\omega^2e_n + r\alpha e_t\]
+		\[\Sigma M_G = \bar{I} \alpha\]
+		\section{Principle of Work and Energy}
+		\[U_{1\to 2} = \smallint \vec{F} \, d\vec{r} + \smallint M \, d\theta  =T_2 - T_1\]
+		\[T_i = \frac{1}{2} m |\vec{v_i}|^2 +  \frac{1}{2} I_G \omega^2 \]
+		\subsubsection{Work of Conservative Forces}
+		\[U_{1\to 2} = U_2 - U_1 = V_1 - V_2\]
+		\[V_1 + T_1 = V_2 + T_2\]
+		\section{Free Vibration Without Damping}
+		\[\ddot{u} + \omega_n^2 u = 0\]
+		\[\omega_n = \sqrt{\frac{k}{m}}\]
+		\subsubsection{Natural Parameters}
+		\[\tau_n = \frac{2\pi}{\omega_n}\]
+		\[f_n = \frac{\omega_n}{2\pi} \,\, \text{(in Hz)}\]
+		\subsubsection{General Solution}
+		\[u = A \sin (\omega_n t + \phi)\]
+		\[A = \sqrt{x_o^2 + \left(\frac{v_o}{\omega_n}\right)^2 }\]
+		\[\phi = \tan^{-1} (\frac{x_o\omega_n}{v_o}) \]
+		\subsubsection{Pendulum}
+		\[\ddot{\theta} + \frac{g}{l}\theta = 0\]
+		\[\omega_n = \sqrt{\frac{g}{l}}\]
+		\subsubsection{Generic Rigid Body}
+		\[\omega_n = \sqrt{\frac{mgd}{I_O}}\]
+		
+		\section{Free Vibration with Damping}
+		\subsubsection{Spring-Mass-Damper System}
+		\[m\ddot{x} + c \dot{x} + kx  = 0\]
+		\[\lambda = -\frac{c}{2m} \pm \sqrt{\left(\frac{c}{2m}\right) ^2 - \frac{k}{m}}\]
+		\subsection{Overdamped ($\left(\frac{c}{2m}\right) ^2 - \frac{k}{m} > 0$)}
+		\[x = A_1 e^{\lambda_1 t} + A_2 e^{\lambda_2 t}\]
+		
+		\subsection{Overdamped ($\left(\frac{c}{2m}\right) ^2 - \frac{k}{m} = 0$)}
+		\[c_{cr} = 2\sqrt{mk} = 2m\omega_n\]
+		\[x = (A_1 + A_2t)e^{-\omega_n t}\]
+		
+		\subsection{Underdamped ($\left(\frac{c}{2m}\right) ^2 - \frac{k}{m} < 0$)}
+		\subsubsection{Equation of Motion}
+		\[\ddot{x} + 2 \zeta \omega_n \dot{x} + \omega_n^2 x = 0\]
+		\[x = X e^{-\zeta \omega_n t} \sin(\omega_d t + \phi)\]
+		\subsubsection{Exponential Decay Coefficient}
+		\[\alpha = \frac{c}{2m} = \zeta \omega_n\]
+		\subsubsection{Damped Oscillation Frequency}
+		\[\omega_d = \sqrt{\frac{k}{m} - \left(\frac{c}{2m}\right)^2} = \omega_n\sqrt{1 - \zeta^2}\]
+		\subsubsection{Damping Ratio}
+		\[\zeta = \frac{c}{c_{cr}} =\frac{c}{2\sqrt{km}}\]
+		\subsubsection{Initial Conditions}
+		\[X = \sqrt{C_1^2 + C_2^2} = \sqrt{\left(\frac{v_o + \zeta \omega_n x_o}{\omega_d}\right) ^2 + x_o^2}\]
+		\[\phi = \tan^{-1} \left(\frac{C_1}{C_2}\right) = \tan^{-1} \left(\frac{\omega_d x_o}{v_o + \zeta \omega_n x_o}\right)\]
+		\section{Logarithmic Decrement}
+		\[\delta = \ln \left(\frac{x_1}{x_2}\right) = \zeta \omega_n \tau_d\]	
+		\[\zeta = \frac{\delta}{\sqrt{(2\pi)^2 + \delta ^2}}\]
+		\[\delta = \frac{1}{N} \ln(\frac{x_1}{x_{1+N}})\]
+	\end{multicols*}
+	\pagebreak
+	\begin{multicols*}{2}
+				\begin{figure}[H]
+			\centering
+			\includegraphics[width=1\linewidth]{screenshot001}
+			\label{fig:screenshot001}
+			\includegraphics[width=1\linewidth]{screenshot002}
+		\end{figure}
+				\begin{figure}[H]
 			\centering
 			\includegraphics[width=0.9\linewidth]{screenshot003}
 			\includegraphics[width=0.9\linewidth]{screenshot004}
 			\includegraphics[width=1\linewidth]{screenshot005}
 			\label{fig:screenshot003}
 		\end{figure}
-		\section{Rigid Body Kinetics}
-		\[\Sigma F = m\bar{a}\]
-		\[\bar{a} = a_{ref} +r\omega^2e_n + r\alpha e_t\]
-		\[\Sigma M_G = \bar{I} \alpha\]
-		
 	\end{multicols*}
 \end{document}
