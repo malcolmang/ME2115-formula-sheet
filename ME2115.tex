@@ -1,4 +1,4 @@
-\documentclass[12pt]{article}
+\documentclass[10pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 \usepackage[a4paper, margin=0.5cm]{geometry}
@@ -7,6 +7,10 @@
 \usepackage{amsmath}
 \setstretch{0.5}
 \usepackage{array}
+\usepackage{physics}
+\usepackage{amssymb}
+\usepackage{float}
+
 
 \makeatletter
 \renewcommand{\section}{\@startsection{section}{1}{0mm}%
@@ -35,6 +39,81 @@
 	\begin{multicols*}{3}
 	\section*{ME2142 Formulae}
 		{Please help}
-		\section{Kinematics}		
+		\section{Vector Mechanics}
+			\[\overrightarrow{OB} - \overrightarrow{OA} = \overrightarrow{AB}\]
+			\[u = |\vb{u}|= \sqrt{u_x^2 + u_y^2 + u_z^2}\]
+			\[\vb{u \cdot v} = \begin{pmatrix} u_x\\ u_y\\ u_z \end{pmatrix} \cdot \begin{pmatrix} v_x\\ v_y\\ v_z \end{pmatrix} = u_xv_x + u_yv_y + u_zv_z     \]
+			\[\vb{u\cross v} = \begin{pmatrix} u_x\\ u_y\\ u_z \end{pmatrix} \cross \begin{pmatrix} v_x\\ v_y\\ v_z \end{pmatrix} =
+			\begin{pmatrix} u_yv_z - u_zv_y\\ u_zv_x - u_xv_z\\ u_xv_y - u_yv_x \end{pmatrix}\]
+			\[\vb{u \cross u} = 0\]
+			\[\vb{u\cdot v} = 0 \text{ (if } \vb{u \perp v}\text{)}\]
+			\[\vb{u \cdot v} = uv \cos\theta\]
+			\[\vb{u\cross v} = uv\sin\theta \cdot \vb{n}\]
+		\section{Particle Kinematics}		
+		\subsection{Rectilinear Motion}
+		\[dx = v \, dt \,\|\, \smallint_{x_0}^{x} dx = \smallint_{t_0}^{t} v(t) \, dt \]
+		\[dv = a \, dt \,\|\, \smallint_{v}^{v_0} dv = \smallint_{t_0}^{t} a(t) \, dt \]
+		\[v \, dv = a \, dx \,\|\, \smallint_{v_0}^{v} v \, dv = \smallint_{x_0}^{x} a(x) \, dx\]
+		
+		Given $a = a(t)$:
+		\[\smallint_{v_0}^{v} dv = \smallint_{t_0}^{t} a(t) \, dt \,\|\,
+		\smallint_{x_0}^{x} dx = \smallint_{t_0}^{t} v(t) \, dt\]
+		
+		Given $a = a(x)$:
+		\[\smallint_{v_0}^{v} v\, dv = \smallint_{x_0}^{x} a(x) \, dx \,\|\,
+		\smallint_{t_0}^{t} dt = \smallint_{x_0}^{x} \frac{1}{v(x)}\, dx\]
+		
+		Given $a = a(v)$:
+		\[\smallint_{t_0}^{t} dt = \smallint_{v_0}^{v} \frac{1}{a(v)} \, dv\,\|\,
+		\smallint_{x_0}^{x} dx = \smallint_{v_0}^{v} \frac{v}{a(v)} \, dv\]
+		
+		If $v$ is constant:
+		\[x = x_0 + v(t-t_0)\]
+		
+		If $a$ is constant:
+		\[v = v_0 + a(t-t_0)\]
+		\[x = x_0 + v_0(t-t_0) + \frac{1}{2}a(t-t_0)^2\]
+		\[v^2 - v_0^2 = 2a(x - x_0)\]
+		
+		\subsection{Curvilinear Motion}
+		\[a_n = \frac{v_t^2}{\rho}\]
+		\section{Rigid Body Mechanics}
+		\subsection{General Plane Motion}
+		\[v_{B/A} = v_B - v_A \]
+		\[v_{B/A} = \omega k \cross r_{B/A} = r\omega\]
+		
+		\subsection{Rolling without Sliding}
+		* velocity at contact point always 0
+		\[v_O = r\omega\]
+		
+		\section{Mass Properties}
+		\[dW = \gamma t \, dA \equiv W = \gamma t A \]
+		\[\bar{x} A = \smallint x\,dA = Q_y\]
+		\[\bar{y} A = \smallint y\,dA = Q_x\]
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=1\linewidth]{screenshot001}
+			\label{fig:screenshot001}
+					\includegraphics[width=1\linewidth]{screenshot002}
+		\end{figure}
+		\subsection{Compound Shapes}
+		\[Q_y = \bar{X} \textstyle\sum A = \textstyle\sum \bar{x}A \]
+		\[Q_y = \bar{Y} \textstyle\sum A = \textstyle\sum \bar{y}A \]
+		\section{Mass Moment of Inertia}
+		\[I_O = \smallint r^2 \, dm = k_o^2 m \]
+		\[I = I_O + md^2\]
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.9\linewidth]{screenshot003}
+			\includegraphics[width=0.9\linewidth]{screenshot004}
+			\includegraphics[width=1\linewidth]{screenshot005}
+			\label{fig:screenshot003}
+		\end{figure}
+		\section{Rigid Body Kinetics}
+		\[\Sigma F = m\bar{a}\]
+		\[\bar{a} = a_{ref} +r\omega^2e_n + r\alpha e_t\]
+		\[\Sigma M_G = \bar{I} \alpha\]
+		
 	\end{multicols*}
 \end{document}
