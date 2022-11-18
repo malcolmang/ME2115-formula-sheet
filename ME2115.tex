@@ -1,7 +1,7 @@
 \documentclass[10pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
-\usepackage[a4paper, margin=0.8cm]{geometry}
+\usepackage[a4paper, margin= 0.46cm]{geometry}
 \usepackage{multicol}
 \usepackage[nodisplayskipstretch]{setspace}
 \usepackage{amsmath}
@@ -37,8 +37,9 @@
 
 \begin{document}
 	\begin{multicols*}{3}
-	\section*{ME2142 Formulae}
-		{Please help}
+	\section*{ME2115 Formulae}
+		Malcolm Ang 2022 
+		{(Please help)}
 		\section{Vector Mechanics}
 			\[\overrightarrow{OB} - \overrightarrow{OA} = \overrightarrow{AB}\]
 			\[u = |\vb{u}|= \sqrt{u_x^2 + u_y^2 + u_z^2}\]
@@ -76,15 +77,24 @@
 		\[v^2 - v_0^2 = 2a(x - x_0)\]
 		
 		\subsection{Curvilinear Motion}
+		The previous section can apply to angular motion by replacing $x$ with $\theta$, $v$ with $\omega$, and $a$ with $\alpha$.
+		\[s = r\theta\]
+		\[v_t = r\omega\]
+		\[a_t = r\alpha\]
 		\[a_n = \frac{v_t^2}{\rho}\]
 		\section{Rigid Body Mechanics}
 		\subsection{General Plane Motion}
-		\[v_{B/A} = v_B - v_A \]
-		\[v_{B/A} = \omega k \cross r_{B/A} = r\omega\]
+		\[ v_B =  v_A + v_{B/A}  \]
+		\[\vec{v}_{B/A} = \vec{\omega} \cross \vec{r}_{B/A} = v_t\]
+		\[\vec{a}_B = \vec{a}_A + \vec{a}_{B/A}\]
+		\[a_{B/A} =  \vec{\omega} \cross (\vec{\omega} \cross \vec{r}_{B/A}) + \vec{\alpha} \cross \vec{r}_{B/A}  = \vec{a}_n + \vec{a}_t\]
 		
 		\subsection{Rolling without Sliding}
 		* velocity at contact point always 0
-		\[v_O = r\omega\]
+		\[v_o = r\omega\]
+		\[a_t = r\alpha\]
+		\[\vec{a_c} = \vec{\alpha} \cross \vec{r}_{c/o}\]
+		\[\vec{v_c} = \vec{\omega} \cross \vec{r}_{c/o}\]
 		
 		\section{Mass Properties}
 		\[dW = \gamma t \, dA \equiv W = \gamma t A \]
@@ -96,13 +106,18 @@
 		\[Q_y = \bar{X} \textstyle\sum A = \textstyle\sum \bar{x}A \]
 		\[Q_y = \bar{Y} \textstyle\sum A = \textstyle\sum \bar{y}A \]
 		\section{Mass Moment of Inertia}
-		\[I_O = \smallint r^2 \, dm = k_o^2 m \]
+		\[I_O = \smallint r^2 \, dm =  m k_o^2\]
 		\[I = I_O + md^2\]
 
 		\section{Rigid Body Kinetics}
-		\[\Sigma F = m\bar{a}\]
+		\[\Sigma F = m\bar{a} = \Sigma F_{eff.}\]
+		\[\Sigma M_G = \bar{I} \alpha = \Sigma M_{eff.}\]
+		More generally.
+		\[\Sigma M_i + \Sigma (\vec{r}_{i/A} \cross \vec{F}_i) = M_A = I_G \vec{\alpha} + \vec{r}_{G/A}  \cross m\vec{a}_G\]
+		\[M_A = (I_G + mr_{G/A}^2)\vec{\alpha} = I_A \vec{\alpha}\]
+		
 		\[\bar{a} = a_{ref} +r\omega^2e_n + r\alpha e_t\]
-		\[\Sigma M_G = \bar{I} \alpha\]
+		
 		\section{Principle of Work and Energy}
 		\[U_{1\to 2} = \smallint \vec{F} \, d\vec{r} + \smallint M \, d\theta  =T_2 - T_1\]
 		\[T_i = \frac{1}{2} m |\vec{v_i}|^2 +  \frac{1}{2} I_G \omega^2 \]
@@ -132,7 +147,7 @@
 		\subsection{Overdamped ($\left(\frac{c}{2m}\right) ^2 - \frac{k}{m} > 0$)}
 		\[x = A_1 e^{\lambda_1 t} + A_2 e^{\lambda_2 t}\]
 		
-		\subsection{Overdamped ($\left(\frac{c}{2m}\right) ^2 - \frac{k}{m} = 0$)}
+		\subsection{Critically Damped ($\left(\frac{c}{2m}\right) ^2 - \frac{k}{m} = 0$)}
 		\[c_{cr} = 2\sqrt{mk} = 2m\omega_n\]
 		\[x = (A_1 + A_2t)e^{-\omega_n t}\]
 		
@@ -153,6 +168,16 @@
 		\[\delta = \ln \left(\frac{x_1}{x_2}\right) = \zeta \omega_n \tau_d\]	
 		\[\zeta = \frac{\delta}{\sqrt{(2\pi)^2 + \delta ^2}}\]
 		\[\delta = \frac{1}{N} \ln(\frac{x_1}{x_{1+N}})\]
+		
+		\section{Tips}
+		\begin{itemize}
+			\item Rigid Body EFDs can be placed on every member in a Rigid Body (use relative acceleration/velocity to find direction of movement)
+			\item Only tangential movement with fixed rotation (hinges, links)
+			\item Movement of an item attached to a pulley = movement of the point of attachment (displacement, acceleration, velocity)
+			\item For \textbf{Constrained Motion} - do kinematic analysis (relative velocity/acceleration) then kinetic analysis (equate FBD to EFD)
+			\item Use moments about points that eliminate as many forces as possible
+			\item \textbf{Law of Sines}: $\frac{a}{\sin{A}} = \frac{b}{\sin{B}} = \frac{c}{\sin{C}}$ for any triangle
+		\end{itemize}
 	\end{multicols*}
 	\pagebreak
 	\begin{multicols*}{2}
@@ -161,12 +186,15 @@
 			\includegraphics[width=1\linewidth]{screenshot001}
 			\label{fig:screenshot001}
 			\includegraphics[width=1\linewidth]{screenshot002}
+			\includegraphics[width=0.7\linewidth,angle=90]{screenshot006}
+			\includegraphics[width=0.7\linewidth,angle=90]{screenshot007}
 		\end{figure}
-				\begin{figure}[H]
+		\begin{figure}[H]
 			\centering
 			\includegraphics[width=0.9\linewidth]{screenshot003}
 			\includegraphics[width=0.9\linewidth]{screenshot004}
 			\includegraphics[width=1\linewidth]{screenshot005}
+			
 			\label{fig:screenshot003}
 		\end{figure}
 	\end{multicols*}

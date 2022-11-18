@@ -1,14 +1,14 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.1)  16 NOV 2022 11:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.14)  18 NOV 2022 11:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./ME2115.tex
 (ME2115.tex
 LaTeX2e <2022-06-01> patch level 5
-L3 programming layer <2022-09-28>
-(C:\Users\malcolm\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+L3 programming layer <2022-10-26>
+(C:\Program Files\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
-(C:\Users\malcolm\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+(C:\Program Files\MiKTeX\tex/latex/base\size10.clo
 File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
@@ -23,30 +23,30 @@ File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 )
-(C:\Users\malcolm\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+(C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks16
 \inpenc@posthook=\toks17
 )
-(C:\Users\malcolm\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+(C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
-(C:\Users\malcolm\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+
+(C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks18
 )
-(C:\Users\malcolm\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+(C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
-(C:\Users\malcolm\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+
+(C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
-(C:\Users\malcolm\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics
-.cfg
+(C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
 
-(C:\Users\malcolm\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.d
-ef
+(C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 \stockwidth=\dimen139
 \stockheight=\dimen140
@@ -54,12 +54,13 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 \Gin@req@height=\dimen141
 \Gin@req@width=\dimen142
 )
-(C:\Users\malcolm\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+(C:\Program Files\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
-(C:\Users\malcolm\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+
+(C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
-(C:\Users\malcolm\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+(C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
 \Gm@cnth=\count193
@@ -75,8 +76,8 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layoutvoffset=\dimen150
 \Gm@dimlist=\toks19
 
-(C:\Users\malcolm\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg
-)) (C:\Users\malcolm\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
+(C:\Program Files\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Program Files\MiKTeX\tex/latex/tools\multicol.sty
 Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
 \c@tracingmulticols=\count196
 \mult@box=\box51
@@ -145,25 +146,27 @@ Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
 \colbreak@box=\box95
 \mc@col@check@num=\count271
 )
-(C:\Users\malcolm\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+(C:\Program Files\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
-) (C:\Users\malcolm\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+)
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2022/04/08 v2.17n AMS math features
 \@mathmargin=\skip51
+
 For additional information on amsmath, use the `?' option.
-(C:\Users\malcolm\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
 
-(C:\Users\malcolm\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks20
 \ex@=\dimen160
 ))
-(C:\Users\malcolm\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen161
 )
-(C:\Users\malcolm\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count272
@@ -214,7 +217,7 @@ LaTeX Info: Redefining \Relbar on input line 971.
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
-(C:\Users\malcolm\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+(C:\Program Files\MiKTeX\tex/latex/tools\array.sty
 Package: array 2022/03/10 v2.5f Tabular extension package (FMi)
 \col@sep=\dimen169
 \ar@mcellbox=\box98
@@ -224,41 +227,39 @@ Package: array 2022/03/10 v2.5f Tabular extension package (FMi)
 \backup@length=\skip55
 \ar@cellbox=\box99
 )
-(C:\Users\malcolm\AppData\Local\Programs\MiKTeX\tex/latex/physics\physics.sty
+(C:\Program Files\MiKTeX\tex/latex/physics\physics.sty
 Package: physics 
 
-(C:\Users\malcolm\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpa
-rse.sty
-(C:\Users\malcolm\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2022-09-28 L3 programming layer (loader) 
+(C:\Program Files\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
+(C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2022-10-26 L3 programming layer (loader) 
 
-(C:\Users\malcolm\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-p
-dftex.def
-File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
+(C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-10-26 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count284
 \l__pdf_internal_box=\box100
 ))
 Package: xparse 2022-06-22 L3 Experimental document command parser
 ))
-(C:\Users\malcolm\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+(C:\Program Files\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(C:\Users\malcolm\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+(C:\Program Files\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (C:\Users\malcolm\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+))
+(C:\Program Files\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count285
 \float@exts=\toks26
 \float@box=\box101
 \@float@everytoks=\toks27
 \@floatcapt=\box102
-)
-(ME2115.aux)
+) (ME2115.aux)
 \openout1 = `ME2115.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
@@ -276,8 +277,7 @@ LaTeX Font Info:    ... okay on input line 38.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
 LaTeX Font Info:    ... okay on input line 38.
 
-(C:\Users\malcolm\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.
-mkii
+(C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count286
 \scratchdimen=\dimen171
@@ -290,15 +290,12 @@ mkii
 \MPnumerator=\count290
 \makeMPintoPDFobject=\count291
 \everyMPtoPDFconversion=\toks29
-)
-(C:\Users\malcolm\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf
--base.sty
+) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 
-(C:\Users\malcolm\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys
-.cfg
+(C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 *geometry* driver: auto-detecting
@@ -309,15 +306,15 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(22.76228pt, 551.9833pt, 22.76228pt)
-* v-part:(T,H,B)=(22.76228pt, 799.52228pt, 22.76228pt)
+* h-part:(L,W,R)=(13.08846pt, 571.33096pt, 13.08846pt)
+* v-part:(T,H,B)=(13.08846pt, 818.86993pt, 13.08846pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=551.9833pt
-* \textheight=799.52228pt
-* \oddsidemargin=-49.5077pt
-* \evensidemargin=-49.5077pt
-* \topmargin=-86.5077pt
+* \textwidth=571.33096pt
+* \textheight=818.86993pt
+* \oddsidemargin=-59.18153pt
+* \evensidemargin=-59.18153pt
+* \topmargin=-96.18153pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -335,89 +332,99 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 43.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 44.
 
-(C:\Users\malcolm\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+(C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 43.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 44.
 
 
-(C:\Users\malcolm\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+(C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
-[]\OT1/cmr/bx/n/12 Free Vi-bra-tion With-out
+Overfull \hbox (14.34944pt too wide) detected at line 116
+\OT1/cmr/m/n/10 ^^F\OML/cmm/m/it/10 M[] \OT1/cmr/m/n/10 + ^^F([] [] []) = \OML/
+cmm/m/it/10 M[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 I[][] \OT1/cmr/m/n/10 + [] [
+] \OML/cmm/m/it/10 m[]
  []
 
 
-Overfull \hbox (7.81926pt too wide) detected at line 150
+Overfull \hbox (1.37004pt too wide) detected at line 165
 \OML/cmm/m/it/10 X \OT1/cmr/m/n/10 = [] = []
- []
-
-
-Overfull \hbox (3.32925pt too wide) detected at line 151
-\OML/cmm/m/it/10 ^^^ \OT1/cmr/m/n/10 = [][] [] = [][] []
  []
 
 [1
 
-{C:/Users/malcolm/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-<screenshot001.png, id=18, 295.60437pt x 242.9075pt>
+{C:/Users/malco/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+<screenshot001.png, id=19, 295.60437pt x 242.9075pt>
 File: screenshot001.png Graphic file (type png)
 <use screenshot001.png>
-Package pdftex.def Info: screenshot001.png  used on input line 161.
-(pdftex.def)             Requested size: 270.99165pt x 222.68811pt.
-<screenshot002.png, id=20, 441.90094pt x 291.33844pt>
+Package pdftex.def Info: screenshot001.png  used on input line 186.
+(pdftex.def)             Requested size: 280.66548pt x 230.63849pt.
+<screenshot002.png, id=21, 441.90094pt x 291.33844pt>
 File: screenshot002.png Graphic file (type png)
 <use screenshot002.png>
-Package pdftex.def Info: screenshot002.png  used on input line 163.
-(pdftex.def)             Requested size: 270.99165pt x 178.66751pt.
-<screenshot003.png, id=21, 322.20375pt x 286.82156pt>
+Package pdftex.def Info: screenshot002.png  used on input line 188.
+(pdftex.def)             Requested size: 280.66548pt x 185.04675pt.
+<screenshot006.png, id=22, 644.4075pt x 913.16156pt>
+File: screenshot006.png Graphic file (type png)
+<use screenshot006.png>
+Package pdftex.def Info: screenshot006.png  used on input line 189.
+(pdftex.def)             Requested size: 196.46497pt x 278.39543pt.
+<screenshot007.png, id=23, 580.41844pt x 922.94812pt>
+File: screenshot007.png Graphic file (type png)
+<use screenshot007.png>
+Package pdftex.def Info: screenshot007.png  used on input line 190.
+(pdftex.def)             Requested size: 196.46497pt x 312.40399pt.
+
+Overfull \hbox (31.73851pt too wide) in paragraph at lines 186--191
+ [] 
+ []
+
+<screenshot003.png, id=24, 322.20375pt x 286.82156pt>
 File: screenshot003.png Graphic file (type png)
 <use screenshot003.png>
-Package pdftex.def Info: screenshot003.png  used on input line 167.
-(pdftex.def)             Requested size: 243.89082pt x 217.1157pt.
-<screenshot004.png, id=22, 327.47343pt x 383.93437pt>
+Package pdftex.def Info: screenshot003.png  used on input line 194.
+(pdftex.def)             Requested size: 252.59721pt x 224.86656pt.
+<screenshot004.png, id=25, 327.47343pt x 383.93437pt>
 File: screenshot004.png Graphic file (type png)
 <use screenshot004.png>
-Package pdftex.def Info: screenshot004.png  used on input line 168.
-(pdftex.def)             Requested size: 243.89082pt x 285.94064pt.
-<screenshot005.png, id=23, 974.89218pt x 395.22656pt>
+Package pdftex.def Info: screenshot004.png  used on input line 195.
+(pdftex.def)             Requested size: 252.59721pt x 296.15176pt.
+<screenshot005.png, id=26, 974.89218pt x 395.22656pt>
 File: screenshot005.png Graphic file (type png)
 <use screenshot005.png>
-Package pdftex.def Info: screenshot005.png  used on input line 169.
-(pdftex.def)             Requested size: 270.99165pt x 109.8606pt.
- [2 <./screenshot001.png> <./screenshot002.png (PNG copy)> <./screenshot003.png
- (PNG copy)> <./screenshot004.png (PNG copy)> <./screenshot005.png (PNG copy)>]
-
-(ME2115.aux) ) 
+Package pdftex.def Info: screenshot005.png  used on input line 196.
+(pdftex.def)             Requested size: 280.66548pt x 113.78053pt.
+[2 <./screenshot001.png> <./screenshot002.png (PNG copy)> <./screenshot006.png 
+(PNG copy)> <./screenshot007.png (PNG copy)> <./screenshot003.png (PNG copy)> <
+./screenshot004.png (PNG copy)> <./screenshot005.png (PNG copy)>] (ME2115.aux) 
+) 
 Here is how much of TeX's memory you used:
- 4194 strings out of 475385
- 63157 string characters out of 2775963
- 445421 words of memory out of 3000000
- 25531 multiletter control sequences out of 15000+600000
- 475286 words of font info for 50 fonts, out of 8000000 for 9000
+ 4217 strings out of 475380
+ 61903 string characters out of 2786586
+ 454447 words of memory out of 3000000
+ 25558 multiletter control sequences out of 15000+600000
+ 475621 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,13n,77p,334b,317s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<C:/Users/malcolm/AppData/Local/Programs/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmbsy10.pfb><C:/Users/malcolm/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/malcolm/AppData/Local/Programs/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/malcolm/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/malcolm/
-AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Use
-rs/malcolm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.
-pfb><C:/Users/malcolm/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmmi5.pfb><C:/Users/malcolm/AppData/Local/Programs/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmmi7.pfb><C:/Users/malcolm/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmr10.pfb><C:/Users/malcolm/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/malcolm/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/malcolm/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/malcol
-m/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on ME2115.pdf (2 pages, 494464 bytes).
+ 72i,13n,77p,334b,332s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\malco\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
+000.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><C:/
+Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program File
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.
+pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Progr
+am Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.
+pfb>
+Output written on ME2115.pdf (2 pages, 931991 bytes).
 PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
+ 88 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
