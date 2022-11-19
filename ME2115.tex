@@ -134,6 +134,9 @@
 		\[f_n = \frac{\omega_n}{2\pi} \,\, \text{(in Hz)}\]
 		\subsubsection{General Solution}
 		\[u = A \sin (\omega_n t + \phi)\]
+		\[\dot{u} = A\omega_n \cos (\omega_n t + \phi)\]
+		\[\dot{\theta}_{max} = \omega_n \theta \]
+		\[\dot{x}_{max} = \omega_n x\]
 		\[A = \sqrt{x_o^2 + \left(\frac{v_o}{\omega_n}\right)^2 }\]
 		\[\phi = \tan^{-1} (\frac{x_o\omega_n}{v_o}) \]
 		\subsubsection{Pendulum}
@@ -174,7 +177,7 @@
 		\section{Tips}
 		\begin{itemize}
 			\item For \textbf{Constrained Motion} - do kinematic analysis (relative velocity/acceleration) then kinetic analysis (equate FBD to EFD)
-			\item Funky approximations: $\sin \theta \approx 0 \| \cos \theta - 1 \approx - \frac{\theta}{2}$
+			\item Funky approximations:\\ $\sin \theta \approx \theta \,\,\|\,\, \cos \theta - 1 \approx - \frac{\theta^2}{2}$
 			\item For a small enough slice of theta in a circle, a triangle can have 2 $90^\circ$ angles (lol)
 			\item \textbf{Law of Sines}: $\frac{a}{\sin{A}} = \frac{b}{\sin{B}} = \frac{c}{\sin{C}}$ for any triangle
 		\end{itemize}
