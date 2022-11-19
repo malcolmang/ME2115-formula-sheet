@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.1)  19 NOV 2022 18:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.1)  19 NOV 2022 18:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -394,12 +394,12 @@ Overfull \hbox (31.73851pt too wide) in paragraph at lines 191--196
 File: screenshot003.png Graphic file (type png)
 <use screenshot003.png>
 Package pdftex.def Info: screenshot003.png  used on input line 199.
-(pdftex.def)             Requested size: 252.59721pt x 224.86656pt.
+(pdftex.def)             Requested size: 280.66548pt x 249.8566pt.
 <screenshot004.png, id=25, 327.47343pt x 383.93437pt>
 File: screenshot004.png Graphic file (type png)
 <use screenshot004.png>
 Package pdftex.def Info: screenshot004.png  used on input line 200.
-(pdftex.def)             Requested size: 252.59721pt x 296.15176pt.
+(pdftex.def)             Requested size: 280.66548pt x 329.05817pt.
 <screenshot005.png, id=26, 974.89218pt x 395.22656pt>
 File: screenshot005.png Graphic file (type png)
 <use screenshot005.png>
@@ -433,7 +433,7 @@ nts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/malcolm/AppData/Local/Programs/
 MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/malcolm/AppData/Local/
 Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/malcolm/App
 Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on ME2115.pdf (2 pages, 933169 bytes).
+Output written on ME2115.pdf (2 pages, 933315 bytes).
 PDF statistics:
  88 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
