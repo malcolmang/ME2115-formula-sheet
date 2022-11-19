@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.1)  19 NOV 2022 13:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.1)  19 NOV 2022 18:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -353,8 +353,13 @@ cmm/m/it/10 M[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 I[][] \OT1/cmr/m/n/10 + [] [
  []
 
 
-Overfull \hbox (1.37004pt too wide) detected at line 170
+Overfull \hbox (1.37004pt too wide) detected at line 172
 \OML/cmm/m/it/10 X \OT1/cmr/m/n/10 = [] = []
+ []
+
+
+Underfull \hbox (badness 7308) in paragraph at lines 181--182
+[]\OT1/cmr/m/n/10 Damping/stiffness for-mula or-der:
  []
 
 [1
@@ -363,42 +368,42 @@ Overfull \hbox (1.37004pt too wide) detected at line 170
 <screenshot001.png, id=19, 295.60437pt x 242.9075pt>
 File: screenshot001.png Graphic file (type png)
 <use screenshot001.png>
-Package pdftex.def Info: screenshot001.png  used on input line 189.
+Package pdftex.def Info: screenshot001.png  used on input line 191.
 (pdftex.def)             Requested size: 280.66548pt x 230.63849pt.
 <screenshot002.png, id=21, 441.90094pt x 291.33844pt>
 File: screenshot002.png Graphic file (type png)
 <use screenshot002.png>
-Package pdftex.def Info: screenshot002.png  used on input line 191.
+Package pdftex.def Info: screenshot002.png  used on input line 193.
 (pdftex.def)             Requested size: 280.66548pt x 185.04675pt.
 <screenshot006.png, id=22, 644.4075pt x 913.16156pt>
 File: screenshot006.png Graphic file (type png)
 <use screenshot006.png>
-Package pdftex.def Info: screenshot006.png  used on input line 192.
+Package pdftex.def Info: screenshot006.png  used on input line 194.
 (pdftex.def)             Requested size: 196.46497pt x 278.39543pt.
 <screenshot007.png, id=23, 580.41844pt x 922.94812pt>
 File: screenshot007.png Graphic file (type png)
 <use screenshot007.png>
-Package pdftex.def Info: screenshot007.png  used on input line 193.
+Package pdftex.def Info: screenshot007.png  used on input line 195.
 (pdftex.def)             Requested size: 196.46497pt x 312.40399pt.
 
-Overfull \hbox (31.73851pt too wide) in paragraph at lines 189--194
+Overfull \hbox (31.73851pt too wide) in paragraph at lines 191--196
  [] 
  []
 
 <screenshot003.png, id=24, 322.20375pt x 286.82156pt>
 File: screenshot003.png Graphic file (type png)
 <use screenshot003.png>
-Package pdftex.def Info: screenshot003.png  used on input line 197.
+Package pdftex.def Info: screenshot003.png  used on input line 199.
 (pdftex.def)             Requested size: 252.59721pt x 224.86656pt.
 <screenshot004.png, id=25, 327.47343pt x 383.93437pt>
 File: screenshot004.png Graphic file (type png)
 <use screenshot004.png>
-Package pdftex.def Info: screenshot004.png  used on input line 198.
+Package pdftex.def Info: screenshot004.png  used on input line 200.
 (pdftex.def)             Requested size: 252.59721pt x 296.15176pt.
 <screenshot005.png, id=26, 974.89218pt x 395.22656pt>
 File: screenshot005.png Graphic file (type png)
 <use screenshot005.png>
-Package pdftex.def Info: screenshot005.png  used on input line 199.
+Package pdftex.def Info: screenshot005.png  used on input line 201.
 (pdftex.def)             Requested size: 280.66548pt x 113.78053pt.
 [2 <./screenshot001.png> <./screenshot002.png (PNG copy)> <./screenshot006.png 
 (PNG copy)> <./screenshot007.png (PNG copy)> <./screenshot003.png (PNG copy)> <
@@ -407,7 +412,7 @@ Package pdftex.def Info: screenshot005.png  used on input line 199.
 Here is how much of TeX's memory you used:
  4217 strings out of 475385
  63635 string characters out of 2775963
- 454430 words of memory out of 3000000
+ 455430 words of memory out of 3000000
  25553 multiletter control sequences out of 15000+600000
  475621 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -428,7 +433,7 @@ nts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/malcolm/AppData/Local/Programs/
 MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/malcolm/AppData/Local/
 Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/malcolm/App
 Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on ME2115.pdf (2 pages, 932584 bytes).
+Output written on ME2115.pdf (2 pages, 933169 bytes).
 PDF statistics:
  88 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

@@ -121,7 +121,7 @@
 		\section{Principle of Work and Energy}
 		\[U_{1\to 2} = \smallint \vec{F} \, d\vec{r} + \smallint M \, d\theta  =T_2 - T_1\]
 		\[V_{grav.} = mg\]
-		\[V_{elas.} = \frac{1}{2} k \delta^2\]
+		\[V_{elas.} = \frac{1}{2} k (\Delta{x})^2\]
 		\[T_i = \frac{1}{2} m |\vec{v_i}|^2 +  \frac{1}{2} I_G \omega^2 \]
 		\subsubsection{Work of Conservative Forces}
 		\[U_{1\to 2} = U_2 - U_1 = V_1 - V_2\]
@@ -139,6 +139,7 @@
 		\[\dot{x}_{max} = \omega_n x\]
 		\[A = \sqrt{x_o^2 + \left(\frac{v_o}{\omega_n}\right)^2 }\]
 		\[\phi = \tan^{-1} (\frac{x_o\omega_n}{v_o}) \]
+		
 		\subsubsection{Pendulum}
 		\[\ddot{\theta} + \frac{g}{l}\theta = 0\]
 		\[\omega_n = \sqrt{\frac{g}{l}}\]
@@ -155,7 +156,6 @@
 		\subsection{Critically Damped ($\left(\frac{c}{2m}\right) ^2 - \frac{k}{m} = 0$)}
 		\[c_{cr} = 2\sqrt{mk} = 2m\omega_n\]
 		\[x = (A_1 + A_2t)e^{-\omega_n t}\]
-		
 		\subsection{Underdamped ($\left(\frac{c}{2m}\right) ^2 - \frac{k}{m} < 0$)}
 		\subsubsection{Equation of Motion}
 		\[\ddot{x} + 2 \zeta \omega_n \dot{x} + \omega_n^2 x = 0\]
@@ -166,6 +166,8 @@
 		\[\omega_d = \sqrt{\frac{k}{m} - \left(\frac{c}{2m}\right)^2} = \omega_n\sqrt{1 - \zeta^2}\]
 		\subsubsection{Damping Ratio}
 		\[\zeta = \frac{c}{c_{cr}} =\frac{c}{2\sqrt{km}}\]
+		\subsubsection{Stiffness Coefficient}
+		\[k = m \omega^2_n\]
 		\subsubsection{Initial Conditions}
 		\[X = \sqrt{C_1^2 + C_2^2} = \sqrt{\left(\frac{v_o + \zeta \omega_n x_o}{\omega_d}\right) ^2 + x_o^2}\]
 		\[\phi = \tan^{-1} \left(\frac{C_1}{C_2}\right) = \tan^{-1} \left(\frac{\omega_d x_o}{v_o + \zeta \omega_n x_o}\right)\]
@@ -176,7 +178,7 @@
 		
 		\section{Tips}
 		\begin{itemize}
-			\item For \textbf{Constrained Motion} - do kinematic analysis (relative velocity/acceleration) then kinetic analysis (equate FBD to EFD)
+			\item Damping/stiffness formula order: find $\delta \to \zeta \to \omega_n \to c_{cr} \to c \wedge k$
 			\item Funky approximations:\\ $\sin \theta \approx \theta \,\,\|\,\, \cos \theta - 1 \approx - \frac{\theta^2}{2}$
 			\item For a small enough slice of theta in a circle, a triangle can have 2 $90^\circ$ angles (lol)
 			\item \textbf{Law of Sines}: $\frac{a}{\sin{A}} = \frac{b}{\sin{B}} = \frac{c}{\sin{C}}$ for any triangle
